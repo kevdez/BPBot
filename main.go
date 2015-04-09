@@ -5,7 +5,7 @@ import (
 	"fmt"
 	// "io/ioutil"
 
-	"./hipchat"
+	"hipchat"
 )
 
 var (
