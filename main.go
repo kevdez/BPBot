@@ -9,9 +9,9 @@ import (
 )
 
 var (
-	message = flag.String("message", "", "The message to send")
-	color = flag.String("color", "", "The color of the message")
-	room = flag.String("room", "", "The room API ID")
+	message = flag.String("message", "", "The message to send")	// required
+	color = flag.String("color", "", "The color of the message")	// optional
+	room = flag.String("room", "", "The room API ID")		// required
 )
 
 func main() {
